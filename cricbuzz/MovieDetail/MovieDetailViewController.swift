@@ -84,6 +84,7 @@ class MovieDetailViewController: UIViewController{
         ratingView.maximumValue = 5
         ratingView.filledStarImage = UIImage(named: "YelloStar")
         ratingView.emptyStarImage = UIImage(named: "GrayStar")
+        ratingView.isUserInteractionEnabled = false
     }
      
 }
