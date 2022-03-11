@@ -1,0 +1,962 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00881DF3ADC2EB1BD79FB03A872173CD /* HCSStarRatingView.h in Headers */ = {isa = PBXBuildFile; fileRef = D49B594325ADB503E0A6ED0C7E4B4A9A /* HCSStarRatingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		015B476F42058C5B50155E13B98C2AF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		091547492EAE2E033E53393036DF45FC /* Pods-cricbuzzTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C301E1BE1616A0413C1C0A5E9353475E /* Pods-cricbuzzTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F3A0BF96AA1A090BC92BD4B8A7573B9 /* Pods-cricbuzz-cricbuzzUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E34A7A290C2CB908DA65A129FFF136C4 /* Pods-cricbuzz-cricbuzzUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28F6C43716D7E86B960E63594F45FBE1 /* Pods-cricbuzz-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F783F0C17911972D0F5269B21599386A /* Pods-cricbuzz-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34F5F6FE9EA3188DE7AFEA32F9EF7837 /* Pods-cricbuzzTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB8479E64635247C3AEC40FD8FB0697 /* Pods-cricbuzzTests-dummy.m */; };
+		40F2826D9EAEF52967EF6FDAB4D900FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		81E24C28E1A24CCB9788BC9D97A0780C /* Pods-cricbuzz-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDEA34DF137853EFB0504E012C4BEFDA /* Pods-cricbuzz-dummy.m */; };
+		8C9F8A6476B5E2985986E3E46F4F7EE1 /* HCSStarRatingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BB387D0EFA2809DA8989C6245114A3 /* HCSStarRatingView-dummy.m */; };
+		A6914B6B918E11FF8FCE8A3A0C5A562A /* HCSStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EDE6F7AD107DB1C518A49EDED9A59FC /* HCSStarRatingView.m */; };
+		B849009F2A907844E9F3FECD1E992C81 /* Pods-cricbuzz-cricbuzzUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B71A5EBFA2614B15CFD5AA1B983132E5 /* Pods-cricbuzz-cricbuzzUITests-dummy.m */; };
+		BFE2D12A7B3C6136F10F69C5AEDC99D8 /* HCSStarRatingView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F62A4CE6E4AD25493176705F040E1B1 /* HCSStarRatingView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC8083BB2BFE2E7D92F85AB1DBF84D21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FAB367772C7D7FFB1638801E74ACD0ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58C1A3D3D304701237BFC87F4A6FAEC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A60A1FE5E5163FCB0B2A86AB569C2282;
+			remoteInfo = "Pods-cricbuzz";
+		};
+		D95F62A56BADA7D2BBCDA6DAC993499F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFFEEF8FEF1DD6BA9599FF2612CD2B6F;
+			remoteInfo = HCSStarRatingView;
+		};
+		E13ADFC4A48391BC798C54592181D925 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFFEEF8FEF1DD6BA9599FF2612CD2B6F;
+			remoteInfo = HCSStarRatingView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06C49B9D1961D9AD5553FE88AF9EC253 /* Pods-cricbuzzTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cricbuzzTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		109F6338FF65C57252958BB950643EB9 /* Pods-cricbuzzTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-cricbuzzTests"; path = Pods_cricbuzzTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		203CA2328880BE42DE9D9B30582165B4 /* Pods-cricbuzz-cricbuzzUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cricbuzz-cricbuzzUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		27E15960D9AEB9AC75FFCF983FC086AD /* Pods-cricbuzzTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cricbuzzTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		295052C7E50DAC5E5E3251A46C3675D9 /* Pods-cricbuzz */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-cricbuzz"; path = Pods_cricbuzz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37EFEAA4F6EA185F05EFE19BF7F92F80 /* Pods-cricbuzzTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cricbuzzTests.debug.xcconfig"; sourceTree = "<group>"; };
+		39F10F5EB9DA0AB835C13CF37427BBC8 /* Pods-cricbuzz-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cricbuzz-acknowledgements.plist"; sourceTree = "<group>"; };
+		3EDE6F7AD107DB1C518A49EDED9A59FC /* HCSStarRatingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCSStarRatingView.m; path = HCSStarRatingView/HCSStarRatingView.m; sourceTree = "<group>"; };
+		3F016BF03DE5DE112BB2FC52339CD0B0 /* Pods-cricbuzz-cricbuzzUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cricbuzz-cricbuzzUITests-frameworks.sh"; sourceTree = "<group>"; };
+		41B72F4F981A545809C1EB158DA62C65 /* HCSStarRatingView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HCSStarRatingView; path = HCSStarRatingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		495BE2E8F9949B21B05EE803364463B0 /* Pods-cricbuzzTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cricbuzzTests.release.xcconfig"; sourceTree = "<group>"; };
+		4AC9F235135A823E85D85E82B9426ABF /* Pods-cricbuzz-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cricbuzz-Info.plist"; sourceTree = "<group>"; };
+		4C9F5C2792E0E91B9D389DDD6F6F2455 /* Pods-cricbuzz-cricbuzzUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cricbuzz-cricbuzzUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4EBA8936B9958B4D480DFDEEDC223F40 /* Pods-cricbuzz-cricbuzzUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cricbuzz-cricbuzzUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		50EA83AD509D042D4DAD17DC0216EDD8 /* Pods-cricbuzz-cricbuzzUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-cricbuzz-cricbuzzUITests"; path = Pods_cricbuzz_cricbuzzUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57BB387D0EFA2809DA8989C6245114A3 /* HCSStarRatingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HCSStarRatingView-dummy.m"; sourceTree = "<group>"; };
+		65A3906397DD8EA98BF02671E854759F /* HCSStarRatingView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HCSStarRatingView.modulemap; sourceTree = "<group>"; };
+		669984B2C030D5B67EDDE7A213F1E68F /* Pods-cricbuzz-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cricbuzz-frameworks.sh"; sourceTree = "<group>"; };
+		6765D4F07D3B293C9FD54FD71B576FA1 /* HCSStarRatingView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HCSStarRatingView.release.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		798B18BAEFBFFB53A472F06CECE90F8A /* Pods-cricbuzz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cricbuzz.debug.xcconfig"; sourceTree = "<group>"; };
+		7F62A4CE6E4AD25493176705F040E1B1 /* HCSStarRatingView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCSStarRatingView-umbrella.h"; sourceTree = "<group>"; };
+		824B1A52AE09ADB6D7E4EB41EC3403BC /* HCSStarRatingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCSStarRatingView-prefix.pch"; sourceTree = "<group>"; };
+		8DAFE8AB11C1BBB142251DF2B4630AD6 /* Pods-cricbuzz.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-cricbuzz.modulemap"; sourceTree = "<group>"; };
+		926CE46DF4F25CAD716B852406DF9DC2 /* Pods-cricbuzz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cricbuzz.release.xcconfig"; sourceTree = "<group>"; };
+		9CB8479E64635247C3AEC40FD8FB0697 /* Pods-cricbuzzTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cricbuzzTests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9C78F8C7E1A1A13E524600ACA595649 /* Pods-cricbuzz-cricbuzzUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cricbuzz-cricbuzzUITests-Info.plist"; sourceTree = "<group>"; };
+		ADB967ED06D07B3886AD77D48D18C566 /* Pods-cricbuzz-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cricbuzz-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B71A5EBFA2614B15CFD5AA1B983132E5 /* Pods-cricbuzz-cricbuzzUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cricbuzz-cricbuzzUITests-dummy.m"; sourceTree = "<group>"; };
+		BE0783C6A279A96840462CF909F4B47A /* HCSStarRatingView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HCSStarRatingView.debug.xcconfig; sourceTree = "<group>"; };
+		C301E1BE1616A0413C1C0A5E9353475E /* Pods-cricbuzzTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cricbuzzTests-umbrella.h"; sourceTree = "<group>"; };
+		CAA44F5400C1D39DB05B3F4B71005098 /* Pods-cricbuzzTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cricbuzzTests-Info.plist"; sourceTree = "<group>"; };
+		CBB2A22357681381C0DE78BCCC93BC85 /* Pods-cricbuzz-cricbuzzUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-cricbuzz-cricbuzzUITests.modulemap"; sourceTree = "<group>"; };
+		CDEA34DF137853EFB0504E012C4BEFDA /* Pods-cricbuzz-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cricbuzz-dummy.m"; sourceTree = "<group>"; };
+		D49B594325ADB503E0A6ED0C7E4B4A9A /* HCSStarRatingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCSStarRatingView.h; path = HCSStarRatingView/HCSStarRatingView.h; sourceTree = "<group>"; };
+		E0E652A6DDF259FFE31490BAB7D16940 /* Pods-cricbuzz-cricbuzzUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cricbuzz-cricbuzzUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E34A7A290C2CB908DA65A129FFF136C4 /* Pods-cricbuzz-cricbuzzUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cricbuzz-cricbuzzUITests-umbrella.h"; sourceTree = "<group>"; };
+		F783F0C17911972D0F5269B21599386A /* Pods-cricbuzz-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cricbuzz-umbrella.h"; sourceTree = "<group>"; };
+		FCD36BCD9AC5607C3D8ADD67178CF440 /* HCSStarRatingView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HCSStarRatingView-Info.plist"; sourceTree = "<group>"; };
+		FD6F20547D0C33BB7DABF108B8A0840C /* Pods-cricbuzzTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-cricbuzzTests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35FCEC3FE953B583C72BBF73FE100D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015B476F42058C5B50155E13B98C2AF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89695FB4B2B3D7E0ADEEE549BB03AC9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC8083BB2BFE2E7D92F85AB1DBF84D21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0CEC4EB94F761E79900836A71ACEC55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F2826D9EAEF52967EF6FDAB4D900FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3A8FE0A77B6B6A702A2CF135C04B0D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB367772C7D7FFB1638801E74ACD0ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D6545E1A89FC38982B9B5E4B292AF4A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				65A3906397DD8EA98BF02671E854759F /* HCSStarRatingView.modulemap */,
+				57BB387D0EFA2809DA8989C6245114A3 /* HCSStarRatingView-dummy.m */,
+				FCD36BCD9AC5607C3D8ADD67178CF440 /* HCSStarRatingView-Info.plist */,
+				824B1A52AE09ADB6D7E4EB41EC3403BC /* HCSStarRatingView-prefix.pch */,
+				7F62A4CE6E4AD25493176705F040E1B1 /* HCSStarRatingView-umbrella.h */,
+				BE0783C6A279A96840462CF909F4B47A /* HCSStarRatingView.debug.xcconfig */,
+				6765D4F07D3B293C9FD54FD71B576FA1 /* HCSStarRatingView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HCSStarRatingView";
+			sourceTree = "<group>";
+		};
+		302FC62F8B6FD03ADEB0138A586C623A /* Pods-cricbuzz */ = {
+			isa = PBXGroup;
+			children = (
+				8DAFE8AB11C1BBB142251DF2B4630AD6 /* Pods-cricbuzz.modulemap */,
+				ADB967ED06D07B3886AD77D48D18C566 /* Pods-cricbuzz-acknowledgements.markdown */,
+				39F10F5EB9DA0AB835C13CF37427BBC8 /* Pods-cricbuzz-acknowledgements.plist */,
+				CDEA34DF137853EFB0504E012C4BEFDA /* Pods-cricbuzz-dummy.m */,
+				669984B2C030D5B67EDDE7A213F1E68F /* Pods-cricbuzz-frameworks.sh */,
+				4AC9F235135A823E85D85E82B9426ABF /* Pods-cricbuzz-Info.plist */,
+				F783F0C17911972D0F5269B21599386A /* Pods-cricbuzz-umbrella.h */,
+				798B18BAEFBFFB53A472F06CECE90F8A /* Pods-cricbuzz.debug.xcconfig */,
+				926CE46DF4F25CAD716B852406DF9DC2 /* Pods-cricbuzz.release.xcconfig */,
+			);
+			name = "Pods-cricbuzz";
+			path = "Target Support Files/Pods-cricbuzz";
+			sourceTree = "<group>";
+		};
+		53E1338A31D5ED1E23A80E6FC7A1B8B2 /* Pods-cricbuzzTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD6F20547D0C33BB7DABF108B8A0840C /* Pods-cricbuzzTests.modulemap */,
+				06C49B9D1961D9AD5553FE88AF9EC253 /* Pods-cricbuzzTests-acknowledgements.markdown */,
+				27E15960D9AEB9AC75FFCF983FC086AD /* Pods-cricbuzzTests-acknowledgements.plist */,
+				9CB8479E64635247C3AEC40FD8FB0697 /* Pods-cricbuzzTests-dummy.m */,
+				CAA44F5400C1D39DB05B3F4B71005098 /* Pods-cricbuzzTests-Info.plist */,
+				C301E1BE1616A0413C1C0A5E9353475E /* Pods-cricbuzzTests-umbrella.h */,
+				37EFEAA4F6EA185F05EFE19BF7F92F80 /* Pods-cricbuzzTests.debug.xcconfig */,
+				495BE2E8F9949B21B05EE803364463B0 /* Pods-cricbuzzTests.release.xcconfig */,
+			);
+			name = "Pods-cricbuzzTests";
+			path = "Target Support Files/Pods-cricbuzzTests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		76704E50E8C395940D9429B2E3C2DEAF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				302FC62F8B6FD03ADEB0138A586C623A /* Pods-cricbuzz */,
+				DD349E6E52E7A613520CF96A90BB8757 /* Pods-cricbuzz-cricbuzzUITests */,
+				53E1338A31D5ED1E23A80E6FC7A1B8B2 /* Pods-cricbuzzTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7C36B92298BEB388176E56F8531234BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B453815E862314701DD9F587A759CF18 /* HCSStarRatingView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B453815E862314701DD9F587A759CF18 /* HCSStarRatingView */ = {
+			isa = PBXGroup;
+			children = (
+				D49B594325ADB503E0A6ED0C7E4B4A9A /* HCSStarRatingView.h */,
+				3EDE6F7AD107DB1C518A49EDED9A59FC /* HCSStarRatingView.m */,
+				1D6545E1A89FC38982B9B5E4B292AF4A /* Support Files */,
+			);
+			name = HCSStarRatingView;
+			path = HCSStarRatingView;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7C36B92298BEB388176E56F8531234BD /* Pods */,
+				EB964A10668946CAFA1D6239E25F1C8C /* Products */,
+				76704E50E8C395940D9429B2E3C2DEAF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD349E6E52E7A613520CF96A90BB8757 /* Pods-cricbuzz-cricbuzzUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBB2A22357681381C0DE78BCCC93BC85 /* Pods-cricbuzz-cricbuzzUITests.modulemap */,
+				4C9F5C2792E0E91B9D389DDD6F6F2455 /* Pods-cricbuzz-cricbuzzUITests-acknowledgements.markdown */,
+				203CA2328880BE42DE9D9B30582165B4 /* Pods-cricbuzz-cricbuzzUITests-acknowledgements.plist */,
+				B71A5EBFA2614B15CFD5AA1B983132E5 /* Pods-cricbuzz-cricbuzzUITests-dummy.m */,
+				3F016BF03DE5DE112BB2FC52339CD0B0 /* Pods-cricbuzz-cricbuzzUITests-frameworks.sh */,
+				A9C78F8C7E1A1A13E524600ACA595649 /* Pods-cricbuzz-cricbuzzUITests-Info.plist */,
+				E34A7A290C2CB908DA65A129FFF136C4 /* Pods-cricbuzz-cricbuzzUITests-umbrella.h */,
+				4EBA8936B9958B4D480DFDEEDC223F40 /* Pods-cricbuzz-cricbuzzUITests.debug.xcconfig */,
+				E0E652A6DDF259FFE31490BAB7D16940 /* Pods-cricbuzz-cricbuzzUITests.release.xcconfig */,
+			);
+			name = "Pods-cricbuzz-cricbuzzUITests";
+			path = "Target Support Files/Pods-cricbuzz-cricbuzzUITests";
+			sourceTree = "<group>";
+		};
+		EB964A10668946CAFA1D6239E25F1C8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41B72F4F981A545809C1EB158DA62C65 /* HCSStarRatingView */,
+				295052C7E50DAC5E5E3251A46C3675D9 /* Pods-cricbuzz */,
+				50EA83AD509D042D4DAD17DC0216EDD8 /* Pods-cricbuzz-cricbuzzUITests */,
+				109F6338FF65C57252958BB950643EB9 /* Pods-cricbuzzTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8AB3D87AF7D7AD283F26AAC5DBF99E94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091547492EAE2E033E53393036DF45FC /* Pods-cricbuzzTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB941163147C7EF85300F593458DBCB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00881DF3ADC2EB1BD79FB03A872173CD /* HCSStarRatingView.h in Headers */,
+				BFE2D12A7B3C6136F10F69C5AEDC99D8 /* HCSStarRatingView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63E70F70BEB06364D442E6130ECDC46 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F3A0BF96AA1A090BC92BD4B8A7573B9 /* Pods-cricbuzz-cricbuzzUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BE70E184C9BEA912F62854839F72F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F6C43716D7E86B960E63594F45FBE1 /* Pods-cricbuzz-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		342F3EEF1E9E3FB6E321172BA0658E12 /* Pods-cricbuzzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25DB206884F8DA7C8FBB5FCC6577B89F /* Build configuration list for PBXNativeTarget "Pods-cricbuzzTests" */;
+			buildPhases = (
+				8AB3D87AF7D7AD283F26AAC5DBF99E94 /* Headers */,
+				2CB4DFBBEFF617C57D6D1784138E46FE /* Sources */,
+				E0CEC4EB94F761E79900836A71ACEC55 /* Frameworks */,
+				39737584F0E1A0FA7DCAE94D74826702 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F96B2159DADBAACF1F0F2DD10EFB054B /* PBXTargetDependency */,
+			);
+			name = "Pods-cricbuzzTests";
+			productName = Pods_cricbuzzTests;
+			productReference = 109F6338FF65C57252958BB950643EB9 /* Pods-cricbuzzTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		7C38E1F3DF9E780C1B622A098D2F9B6C /* Pods-cricbuzz-cricbuzzUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5223AB8A9EB81DD8DDAC26489891581 /* Build configuration list for PBXNativeTarget "Pods-cricbuzz-cricbuzzUITests" */;
+			buildPhases = (
+				F63E70F70BEB06364D442E6130ECDC46 /* Headers */,
+				524C5DE05CDA70DA0EDED2473D96C1EB /* Sources */,
+				89695FB4B2B3D7E0ADEEE549BB03AC9D /* Frameworks */,
+				2DE998ACCE3C4CDF081460E0414A2ECD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DECA92C1C01928E0DE78720C4000DA2 /* PBXTargetDependency */,
+			);
+			name = "Pods-cricbuzz-cricbuzzUITests";
+			productName = Pods_cricbuzz_cricbuzzUITests;
+			productReference = 50EA83AD509D042D4DAD17DC0216EDD8 /* Pods-cricbuzz-cricbuzzUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		A60A1FE5E5163FCB0B2A86AB569C2282 /* Pods-cricbuzz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC9565D479E482580139ABBF454813D3 /* Build configuration list for PBXNativeTarget "Pods-cricbuzz" */;
+			buildPhases = (
+				F8BE70E184C9BEA912F62854839F72F3 /* Headers */,
+				83682061252748B19C3316D36C6A8010 /* Sources */,
+				E3A8FE0A77B6B6A702A2CF135C04B0D7 /* Frameworks */,
+				6CB74FBC48692974ECE4E3E485B2EC5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86D33B02C7E36FA3C93716225C081379 /* PBXTargetDependency */,
+			);
+			name = "Pods-cricbuzz";
+			productName = Pods_cricbuzz;
+			productReference = 295052C7E50DAC5E5E3251A46C3675D9 /* Pods-cricbuzz */;
+			productType = "com.apple.product-type.framework";
+		};
+		AFFEEF8FEF1DD6BA9599FF2612CD2B6F /* HCSStarRatingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C5AE58164C01D0527A0856908324B2 /* Build configuration list for PBXNativeTarget "HCSStarRatingView" */;
+			buildPhases = (
+				DBB941163147C7EF85300F593458DBCB /* Headers */,
+				21A7E48573525FB1D291AA722A6F0E37 /* Sources */,
+				35FCEC3FE953B583C72BBF73FE100D03 /* Frameworks */,
+				B4D54C7CFBC36B988158486E844AE364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HCSStarRatingView;
+			productName = HCSStarRatingView;
+			productReference = 41B72F4F981A545809C1EB158DA62C65 /* HCSStarRatingView */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EB964A10668946CAFA1D6239E25F1C8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFFEEF8FEF1DD6BA9599FF2612CD2B6F /* HCSStarRatingView */,
+				A60A1FE5E5163FCB0B2A86AB569C2282 /* Pods-cricbuzz */,
+				7C38E1F3DF9E780C1B622A098D2F9B6C /* Pods-cricbuzz-cricbuzzUITests */,
+				342F3EEF1E9E3FB6E321172BA0658E12 /* Pods-cricbuzzTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DE998ACCE3C4CDF081460E0414A2ECD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39737584F0E1A0FA7DCAE94D74826702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB74FBC48692974ECE4E3E485B2EC5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4D54C7CFBC36B988158486E844AE364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21A7E48573525FB1D291AA722A6F0E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6914B6B918E11FF8FCE8A3A0C5A562A /* HCSStarRatingView.m in Sources */,
+				8C9F8A6476B5E2985986E3E46F4F7EE1 /* HCSStarRatingView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CB4DFBBEFF617C57D6D1784138E46FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34F5F6FE9EA3188DE7AFEA32F9EF7837 /* Pods-cricbuzzTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524C5DE05CDA70DA0EDED2473D96C1EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B849009F2A907844E9F3FECD1E992C81 /* Pods-cricbuzz-cricbuzzUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83682061252748B19C3316D36C6A8010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E24C28E1A24CCB9788BC9D97A0780C /* Pods-cricbuzz-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DECA92C1C01928E0DE78720C4000DA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HCSStarRatingView;
+			target = AFFEEF8FEF1DD6BA9599FF2612CD2B6F /* HCSStarRatingView */;
+			targetProxy = E13ADFC4A48391BC798C54592181D925 /* PBXContainerItemProxy */;
+		};
+		86D33B02C7E36FA3C93716225C081379 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HCSStarRatingView;
+			target = AFFEEF8FEF1DD6BA9599FF2612CD2B6F /* HCSStarRatingView */;
+			targetProxy = D95F62A56BADA7D2BBCDA6DAC993499F /* PBXContainerItemProxy */;
+		};
+		F96B2159DADBAACF1F0F2DD10EFB054B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-cricbuzz";
+			target = A60A1FE5E5163FCB0B2A86AB569C2282 /* Pods-cricbuzz */;
+			targetProxy = 58C1A3D3D304701237BFC87F4A6FAEC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		38DF25E37CE5133A05800E6064923253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6765D4F07D3B293C9FD54FD71B576FA1 /* HCSStarRatingView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HCSStarRatingView/HCSStarRatingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HCSStarRatingView/HCSStarRatingView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HCSStarRatingView/HCSStarRatingView.modulemap";
+				PRODUCT_MODULE_NAME = HCSStarRatingView;
+				PRODUCT_NAME = HCSStarRatingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3DA9FD4F82FA1BEB787BC3D8748C12DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 798B18BAEFBFFB53A472F06CECE90F8A /* Pods-cricbuzz.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-cricbuzz/Pods-cricbuzz-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cricbuzz/Pods-cricbuzz.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7AE3734F166E2886A47F6314A074C86E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EBA8936B9958B4D480DFDEEDC223F40 /* Pods-cricbuzz-cricbuzzUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-cricbuzz-cricbuzzUITests/Pods-cricbuzz-cricbuzzUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cricbuzz-cricbuzzUITests/Pods-cricbuzz-cricbuzzUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		93A80E59DD6B6B7417CFDDA77547E97C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 495BE2E8F9949B21B05EE803364463B0 /* Pods-cricbuzzTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-cricbuzzTests/Pods-cricbuzzTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cricbuzzTests/Pods-cricbuzzTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9C01799E34D96A85C54B10233ED36CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 926CE46DF4F25CAD716B852406DF9DC2 /* Pods-cricbuzz.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-cricbuzz/Pods-cricbuzz-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cricbuzz/Pods-cricbuzz.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEB884BB4C083FB47D24FC664F960F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37EFEAA4F6EA185F05EFE19BF7F92F80 /* Pods-cricbuzzTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-cricbuzzTests/Pods-cricbuzzTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cricbuzzTests/Pods-cricbuzzTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D4AD105B62D2F0D385348736CEB0DB76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE0783C6A279A96840462CF909F4B47A /* HCSStarRatingView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HCSStarRatingView/HCSStarRatingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HCSStarRatingView/HCSStarRatingView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HCSStarRatingView/HCSStarRatingView.modulemap";
+				PRODUCT_MODULE_NAME = HCSStarRatingView;
+				PRODUCT_NAME = HCSStarRatingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D6C5A3182962FF2A51232CF7C308E785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0E652A6DDF259FFE31490BAB7D16940 /* Pods-cricbuzz-cricbuzzUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-cricbuzz-cricbuzzUITests/Pods-cricbuzz-cricbuzzUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cricbuzz-cricbuzzUITests/Pods-cricbuzz-cricbuzzUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25DB206884F8DA7C8FBB5FCC6577B89F /* Build configuration list for PBXNativeTarget "Pods-cricbuzzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEB884BB4C083FB47D24FC664F960F75 /* Debug */,
+				93A80E59DD6B6B7417CFDDA77547E97C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92C5AE58164C01D0527A0856908324B2 /* Build configuration list for PBXNativeTarget "HCSStarRatingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4AD105B62D2F0D385348736CEB0DB76 /* Debug */,
+				38DF25E37CE5133A05800E6064923253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5223AB8A9EB81DD8DDAC26489891581 /* Build configuration list for PBXNativeTarget "Pods-cricbuzz-cricbuzzUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AE3734F166E2886A47F6314A074C86E /* Debug */,
+				D6C5A3182962FF2A51232CF7C308E785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC9565D479E482580139ABBF454813D3 /* Build configuration list for PBXNativeTarget "Pods-cricbuzz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA9FD4F82FA1BEB787BC3D8748C12DB /* Debug */,
+				9C01799E34D96A85C54B10233ED36CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

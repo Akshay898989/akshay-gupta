@@ -1,0 +1,6 @@
+framework module Pods_cricbuzz {
+  umbrella header "Pods-cricbuzz-umbrella.h"
+
+  export *
+  module * { export * }
+}

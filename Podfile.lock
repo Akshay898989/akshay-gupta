@@ -1,0 +1,16 @@
+PODS:
+  - HCSStarRatingView (1.5)
+
+DEPENDENCIES:
+  - HCSStarRatingView (~> 1.5)
+
+SPEC REPOS:
+  trunk:
+    - HCSStarRatingView
+
+SPEC CHECKSUMS:
+  HCSStarRatingView: 1d18f79654735514cd6f00e6d90e38cb6320dc31
+
+PODFILE CHECKSUM: 7acdd2d6a07678498e6fc020c70cc26c7c4b601a
+
+COCOAPODS: 1.11.2
